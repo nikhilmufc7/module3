@@ -1,104 +1,44 @@
-/* Base Styles */
-
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 h1 {
-    font-family: Brushstroke, fantasy;
-    color: #000000;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
-body {
-    background-color: white;
-
-}
-
-p {
-    padding: 10px;
-    margin: 0;
-}
-
-.container {
-    border: none;
-    margin-left: auto;
+article{
+  padding : 8px;
     margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
+  margin-left: auto;
 }
 
-section {
-    border: 1px solid black;
-    background-color: #FFA07A;
-    width: 100%;
-    height: auto;
-    font-family: Helvetica;
-    color: black;
-    position: relative;
-    overflow: auto;
+.column-content-body{
+  background-color: silver;
+
+
+  border: 1px solid black;
+}
+.column-content-body p{
+    padding: 8px;
+margin-top: 50px;
+}
+
+ body {
+
+
+
+  font-family: Helvetica;
 }
 
 
-
-
-#chicken-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
+.food-sub-heading{
+  margin: 10px 0px;
+height: 30px;
+width: 100%;
+text-align: center;
+position: absolute;
 }
 
-#beef-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-#sushi-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-.navbar-brand {
-  font-size: 2em;
-  border: 0 0 10px 10px;
-  color: #FFFFFF;
-}
-
-#header-nav {
-  border: 0;
-  background-color: #FC5F06;
-  color: #FFFFFF;
-}
-
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}
-
-.nav-header {
-  background-color: #FFFFFF;
-}
-
-.nav-brand {
-  color: #FFFFFF;
-  font-size: 1.5em;
-}
-
-#nav-list {
-  color: white;
-}
-
-hr {
-  border-color: white;
-}
-
-.item {
-  color: white;
-  font-size: 1.2em;
-}
-#beef #sushi #chicken{
-    font-size: 1.75em;
-    font-style: bold;
+.row{
+      margin:0px 15px;
 }
