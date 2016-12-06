@@ -1,50 +1,140 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @nikhilmufc7
+ Watch 1
+  Star 0
+  Fork 0 Gvetri/courseramod3
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs
+Branch: gh-pages Find file Copy pathcourseramod3/css/main.css
+c3593e9  on Mar 7
+@Gvetri Gvetri First commit for coursera module 3 solution
+1 contributor
+RawBlameHistory     
+121 lines (103 sloc)  2 KB
+
+body {
+  font-size: 16px;
+  color: #FFFFEC;
+  background-color: #FFFFEC;
+  font-family: Verdana;
+}
+
+/** HEADER **/
 #header-nav {
-  background-color: #999999;
+  background-color: #006600;
   border-radius: 0;
   border: 0;
 }
-#header-nav .navbar-brand a{
-  color: #ccc;
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: verdana, serif;
+  color: #FFFFEC;
+  font-size: 1.5em;
+  text-transform: uppercase;
   font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { /* Kosher cert */
-  color: #000;
-  text-transform: uppercase;
-  font-size: .7em;
-  margin-top: 15px;
-}
-.navbar-brand p span { /* Star-K */
-  vertical-align: middle;
-}
 
-#nav-list{
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #red;
+  text-align: center;
+}
+#nav-list a:hover {
   background: white;
-  border: 1px solid black;
-  margin-top: 0;
-  margin-bottom: 0;
+}
+#nav-list a span {
+  font-size: 1.8em;
 }
 
-#nav-list hr{
-  margin-top: 0px;
-  margin-bottom: 0px;
-  color: #e7e7e7;
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid red;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+#contenuto {
+  background-color: #006600;
+  margin-top: 10px;
 }
 
-#header-nav span.icon-bar{
-  background: #e7e7e7;
+#menu{
+  text-align: center;
 }
 
-#header-nav .navbar-toggle:hover span.icon-bar, #header-nav .navbar-toggle:focus span.icon-bar{
-  background: #888;
+
+#menutitle{
+  color: red;
 }
 
-.menu-header{
-  margin-bottom: 40px;
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: red;
+  }
 }
-.menu-content{
-  background: #999999;
-  margin-bottom: 20px;
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
 }
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
